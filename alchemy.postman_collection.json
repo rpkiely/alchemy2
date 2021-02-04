@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "86ba9577-0c4f-4234-b20b-7a2e3c3d1415",
+		"name": "alchemy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "spacecraft",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/spacecraft?status=\"damaged\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"spacecraft"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "\"Devastator\"",
+							"disabled": true
+						},
+						{
+							"key": "class",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "status",
+							"value": "\"damaged\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "singleship",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/singleship?id=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"singleship"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
