@@ -1,9 +1,13 @@
 # alchemy2
 
 ships.sql : mysql dump of db
+
 app.py : python flask implementation of a rest api
+
 requirements.txt : library requirements for app.py (flask and mysql)
+
 alchemy.postman_collection.json : collection of postman tests
+
 
 To Test:
 1) Run the app.py
