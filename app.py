@@ -11,7 +11,7 @@ app = Flask(__name__)
 #db 
 db_host='127.0.0.1'
 db_user='root'
-db_passwd='admin1!'
+db_passwd='123456'
 db_database='ships'
 db_port=3306
 
